@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 20px;
+  background:linear-gradient(to right,rgb(121, 121, 242), rgb(184, 184, 243));
+  color:white;
+}
+.heading {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.main_heading {
+  margin-right: 150px;
+}
+.main_heading h1{
+  text-decoration: underline;
+}
+.pimage img {
+  height: 250px;
+  width: 250px;
+  border-radius: 70%;
+  border: 2px solid black;
+}
+.heading h1 {
+  margin-bottom: 20px;
+}
+.skills {
+  margin-bottom: 20px;
+}
+.skills ul {
+  margin: 10px;
+}
+.projects {
+  margin-bottom: 20px;
+}
+.projects li {
+  margin: 10px;
+}
+
+.achievements {
+  margin-bottom: 20px;
+}
+.achievements li {
+  margin: 10px;
+}
+
+.extra_curr {
+  margin-bottom: 20px;
+}
+.extra_curr li {
+  margin: 10px;
+}
+a{
+  color: blue;
+  text-decoration: none; 
+}
+a:hover{
+  text-decoration: underline;
+}
+.heading .main_heading h1,.skills h3,.skills p,.projects h3,.achievements h3,.extra_curr h3{
+  color: black;
+}
